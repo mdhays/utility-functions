@@ -8,3 +8,18 @@ development, but aren't required to run your app. Examples include jest,
 grunt, gulp, etc.
 
 
+Versioning for packages.
+
+Use this format; version major.minor.patch. For instace in something
+that's at version 1.2.3, 1 is major, 2 is minor, 3 is patch level
+changes.
+
+Major changes are anything that can break your app. Basically it makes
+your app non-backwards compatible.
+
+Minor changes are things that aren't likely to break things, but aren't
+small enough to be patches. Things like adding a function to a module
+would qualify as minor changes.
+
+Patches are things like bug fixes that are very small changes to your
+app.
