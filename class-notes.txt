@@ -1,0 +1,10 @@
+The difference between npm install --save vs. npm install --save-dev
+
+npm install --save is used for components that run your app. Examples
+include jquery, angular, ionic, etc.
+
+npm install --save-dev is used for helpful components that aid in
+development, but aren't required to run your app. Examples include jest,
+grunt, gulp, etc.
+
+
